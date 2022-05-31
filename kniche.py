@@ -22,9 +22,9 @@ def convert_to_bmp(pixels, width, height):
 
 
 if __name__ == "__main__":
-    fname = "scarf2_60"
+    fname = "rule_150_2_80"
     extension = ".txt"
-    width = 60
+    width = 80
 
     with open(fname + extension, "r") as f:
         data = f.read()
